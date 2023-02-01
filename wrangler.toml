@@ -1,4 +1,4 @@
-name = "HouseManager"
+name = "housemanager"
 
 workers_dev = true
 main = "./build/index.js"
