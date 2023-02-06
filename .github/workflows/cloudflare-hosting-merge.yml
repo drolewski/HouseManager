@@ -22,3 +22,5 @@ jobs:
         uses: cloudflare/wrangler-action@2.0.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
