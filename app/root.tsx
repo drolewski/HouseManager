@@ -37,7 +37,7 @@ export const Document = ({children}: any) => {
             <Meta/>
             <Links/>
         </head>
-        <body className="h-full w-full">
+        <body className="bg-stone-100 h-full w-full">
         {children}
         </body>
         </html>

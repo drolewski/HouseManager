@@ -13,6 +13,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@prisma/client": "^4.9.0",
     "@remix-run/cloudflare": "^1.12.0",
     "@remix-run/cloudflare-workers": "^1.12.0",
     "@remix-run/react": "^1.12.0",

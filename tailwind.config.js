@@ -15,9 +15,6 @@ module.exports = {
       regular: '600',
       bold: '800'
     },
-    fontSize: {
-      base: ['18px', '26px']
-    },
     extend: {},
   },
   plugins: [],
