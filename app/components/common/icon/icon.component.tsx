@@ -6,7 +6,7 @@ type IconProps = {
 
 const Icon = (props: IconProps) => {
     return (
-        <img className={props.className} src={"icons/" + props.icon + ".svg"} alt={props.description}/>
+        <img className={props.className} src={"../icons/" + props.icon + ".svg"} alt={props.description}/>
     );
 }
 
