@@ -20,6 +20,8 @@ jobs:
 
       - name: Generate prisma models
         run: npm run prisma:generate
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
