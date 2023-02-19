@@ -13,12 +13,11 @@ datasource db {
 model Book {
   isbn          String      @id
   title         String
-  category      String
+  author        String
   publishedBy   String
   image         String
   language      String
-  releaseDate   DateTime
-  releaseNumber String
+  publishDate   DateTime
   OwnedBook     OwnedBook[]
 }
 
