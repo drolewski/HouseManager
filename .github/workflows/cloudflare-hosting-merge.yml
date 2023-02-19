@@ -19,7 +19,7 @@ jobs:
         run: npm ci
 
       - name: Generate prisma models
-        run: prisma generate --data-proxy
+        run: npm run prisma:generate
 
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0

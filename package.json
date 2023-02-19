@@ -10,7 +10,8 @@
     "dev:miniflare": "cross-env NODE_ENV=development miniflare --env .env ./build/index.js --watch",
     "dev": "remix build && run-p \"dev:*\"",
     "start": "cross-env NODE_ENV=production miniflare ./build/index.js",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "prisma:generate": "prisma generate --data-proxy"
   },
   "dependencies": {
     "@prisma/client": "^4.9.0",
