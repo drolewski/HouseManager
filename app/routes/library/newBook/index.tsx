@@ -16,7 +16,7 @@ const NewBook = () => {
             isError(true);
             return;
         }
-        navigate(`/library/book/${isbn}`);
+        navigate(`${isbn}`);
     };
 
     return (
